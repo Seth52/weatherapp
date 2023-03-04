@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import './style.css';
+import {formBuild, test} from './form';
 
 console.log('hello');
 function component() {
@@ -12,4 +13,7 @@ function component() {
   }
  
   document.body.appendChild(component());
- 
+
+
+test();
+ formBuild();
