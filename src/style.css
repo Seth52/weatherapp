@@ -1,3 +1,22 @@
-.hello{
-    color:red;
+button{
+    width:100px;
+    height:50px;
+    background-color: cornflowerblue;
+    color:darkslategray;
+}
+body{
+    display:flex;
+    flex-direction: column;
+ align-items: center;
+padding: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   margin:10px;
+}
+input{
+max-width: 200px;
+margin:5px;
 }
